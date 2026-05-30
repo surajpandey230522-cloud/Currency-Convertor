@@ -206,7 +206,7 @@ const updateFlag =(element)=>{
 };
 
 btn.addEventListener("click", async(evt)=>{
-evt.preventDefault();
+// evt.preventDefault();
 let amount=document.querySelector(" .amount input")
 let amtVal=amount.value;
 console.log(amtVal);
